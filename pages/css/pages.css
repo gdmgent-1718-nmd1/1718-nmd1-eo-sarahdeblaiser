@@ -11,7 +11,173 @@ body {
     padding: 25px;
 }
 
-img {
-    max-width: 100%; /* Afbeeldingen responsive maken */
+
+h2{
+    font-family: 'Raleway', sans-serif;
+    font-size:40px;
+    text-transform: uppercase;
+    color:#68DFA9;
+    margin-top: 100px;
+    text-align: center;
+}
+h3{
+    font-family: 'Raleway', sans-serif;
+    font-size:25px;
+    color:#FFF71C;
+    margin-top:5px;
+    margin-bottom: 10px;
 }
 
+/*knoppen met hover*/
+img.Knop{
+    width: 30%;
+    height: auto;
+    
+}
+a:hover img.Knop{
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+img.media {
+    opacity:0.3;
+}
+
+a:hover img.media {
+    opacity:1.0 ;
+ }
+img.Fotologo {
+    width:30%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+a:active img.pijl{
+    transform: rotate(180deg);
+}
+
+
+img.kleur {
+    height: 90px;
+    width:90px;
+    border: solid black 2px;
+}
+img.formulier {
+    height:auto;
+    width:60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+img.Geluid{
+    background-color: #68DFA9;
+    padding: 10px;
+}
+
+
+img.fotoiconen{
+    width:15%;
+    height:auto;
+
+}
+img.Fotos{
+    width:50%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.social li{
+    display:inline;
+}
+
+/*Tekst voorbeelden*/ 
+.voorbeeldtitel{
+    font-family: 'Raleway', sans-serif;
+    font-size:60px;
+    text-transform: uppercase;
+}
+
+.voorbeeldtussentitel {
+    font-family: 'Raleway', sans-serif;
+    font-size:40px;
+}
+.voorbeelddoorlopendetekst {
+    font-family: 'Raleway', sans-serif;
+    font-size:20px;
+}
+
+.voorbeeldfooter {
+    font-family: 'Raleway', sans-serif;
+    font-size:20px;
+    font-weight: bold;
+}
+
+.voorbeeldnavigatie {
+    font-family: 'Raleway', sans-serif;
+    font-size:30px;
+    text-transform: uppercase
+}
+
+.voorbeeldFAQ {
+    font-family: 'Raleway', sans-serif;
+    font-size:20px;
+}
+.logo,.kleuren,.navigatie,.tekst,.knoppen,.iconen,.formulieren{
+    border-bottom: 2px solid #68DFA9;
+}
+
+/*navigatie menu*/ 
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:#68DFA9 ;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    color:white;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown-content{
+    font-size:20px
+}
+.menu {
+    
+     font-family: 'Raleway', sans-serif;
+     font-size:30px;
+     text-transform: uppercase;
+     color: white;
+     background-color: #68DFA9;
+     padding: 15px;
+     margin-left:20px;
+     margin-right:20px;
+ }
+ a {
+     text-decoration: none;
+     color:white;
+ }
+ .menu ul li {
+     list-style-type: none;
+     display:inline;
+     padding:0 40px;
+     color:white;
+ }
+ 
+ a:hover li{
+     color:#FFF71C;
+ }
+ .dropdown-content a:hover{
+    color:#FFF71C;
+}
+ 
