@@ -167,6 +167,9 @@ img.Fotos{
      text-decoration: none;
      color:white;
  }
+ a.opdracht{
+     color:#68DFA9 ;
+ }
  .menu ul li {
      list-style-type: none;
      display:inline;
